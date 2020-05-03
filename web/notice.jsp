@@ -9,120 +9,244 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Parent Dashboard</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-        name='viewport' />
-     <link rel="shortcut icon" type="image/png" href="Untitled design.png">
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="module.css" rel="stylesheet" />
-    
 
-    <!--   Core JS Files   -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-   
-    <script src="module.js" type="text/javascript"></script>
-   
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
-<body>
-    <div class="wrapper">
-        <div class="sidebar">
-            <div class="sidebar-wrapper">
-                <div class="logo">
-                    <a href="#" class="simple-text">
-                        StaySafe
-                    </a>
-                </div>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="module.jsp">
-                            <p>User Profile</p>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            
-                            <p>Notice Board</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="attendence.jsp">
-                            
-                            <p>Attendence</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fees.jsp">
-                           
-                            <p>Fees Section</p>
-                        </a>
-                    </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" href="result.jsp">
-                           
-                            <p>Result</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-light nav-link">Logout</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="main-panel">
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg " color-on-scroll="500">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#pablo">Notice</a>
-                    <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                        aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-bar burger-lines"></span>
-                        <span class="navbar-toggler-bar burger-lines"></span>
-                        <span class="navbar-toggler-bar burger-lines"></span>
-                    </button>
+<body id="page-top">
+<!-- Page Wrapper -->
+<div id="wrapper">
 
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Staysafe</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+          <a class="nav-link" href="index.jsp">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Parent Module</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Items
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+          aria-controls="collapsePages">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Pages</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Main Pages</h6>
+            <a class="collapse-item" href="user.jsp">User Profile</a>
+            <a class="collapse-item" href="result.jsp">Result</a>
+            <h6 class="collapse-header">Fees Section</h6>
+            <a class="collapse-item" href="fees.jsp">Fees</a>
+            <div class="collapse-divider"></div>
+            <h6 class="collapse-header">Attendence</h6>
+            <a class="collapse-item" href="attendence.jsp">Attendence</a>
+            <div class="collapse-divider"></div>
+            <h6 class="collapse-header">Notice Board</h6>
+            <a class="collapse-item active" href="#">Notice</a>
+          </div>
+        </div>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+      <li class="nav-item active">
+        <a class="nav-link" href="aboutus.jsp">
+          <i class="fas fa-code"></i>
+          <span>About US</span></a>
+      </li> 
+
+      <!--Divider-->
+      <hr class="sidebar-divider d-none d-md-block">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+          <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+          Logout
+        </a>
+      </li>
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+     <!-- Content Wrapper -->
+     <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+  
+          <!-- Topbar -->
+          <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+  
+            <!-- Sidebar Toggle (Topbar) -->
+            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+              <i class="fa fa-bars"></i>
+            </button>
+  
+            <a class="navbar-brand active" href="#">Notice</a>
+  
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+  
+              <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+              <li class="nav-item dropdown no-arrow d-sm-none">
+                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-search fa-fw"></i>
+                </a>
+  
+              <!-- Nav Item - User Information -->
+              <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">User Name</span>
+                  <img class="img-profile rounded-circle" src="img/LOGO.png">
+                </a>
+                <!-- Dropdown - User Information -->
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                  <a class="dropdown-item" href="user.jsp">
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Profile
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Logout
+                  </a>
                 </div>
-            </nav>
-            <!-- End Navbar -->
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="section">
+              </li>
+  
+            </ul>
+  
+          </nav>
+          <!-- End of Topbar -->
+  
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
+              <!--row content-->
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">Notice Board</h6>
+                        </div>
+                        <!--card Body-->
+                        <div class="card-body">
+                          <!--notice body here -->
+                          <!-- all the notice put in the angular tag-->
+                            <a >NO Notice</a>
+                            <div style="margin-top: 5px;">
+                                <hr class="sidebar-divider my-0">
+                            </div>                           
+                        </div>
                     </div>
                 </div>
+
             </div>
-            <footer class="footer">
-                <div class="container-fluid">
-                    <nav>
-                        <ul class="footer-menu">
-                           
-                            <li>
-                                <a href="#">
-                                    STAYSAFE
-                                </a>
-                            </li>
-                        </ul>
-                        <p class="copyright text-center">
-                            ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            <a href="#">StaySafe</a>
-                        </p>
-                    </nav>
-                </div>
-            </footer>
+  
+          </div>
+          <!-- End of Main Content -->
+  
+          <!-- Footer -->
+          <footer class="sticky-footer bg-white shadow" style="margin-top: 50px;">
+            <div class="container my-auto">
+              <div class="copyright text-right my-auto">
+                ©
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>
+                <a href="#">StaySafe</a>
+              </div>
+            </div>
+          </footer>
+          <!-- End of Footer -->
+          
+  
         </div>
-    </div>
+        <!-- End of Content Wrapper -->
+  
+      </div>
+      <!-- End of Page Wrapper -->
+  
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+  
+      <!-- Logout Modal-->
+      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <a class="btn btn-primary" href="login.jsp">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
-
-</html>

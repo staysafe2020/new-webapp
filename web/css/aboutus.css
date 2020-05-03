@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+h1{
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+#team img{
+    margin-top: -70px;
+}
+
+#team i{
+    font-size: 26px;
+    color: #555;
+}
+
+#team p{
+    font-weight: 500;
+}
+
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #0091FF;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3 ease-in;
+    -moz-transition: all 0.3 ease-in;
+}
+
+#team .card:hover{
+    background: #0091FF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #0091FF;
+}
+
+#team .card:hover h3,#team .card:hover i{
+    color: #fff;
+}
+
+.footer-area{
+    background: #15181d;
+    padding: 130px 0px;
+    
+}
+@media(max-width: 991px){
+    .footer-area{
+        padding: 80px 0px 40px;
+    }
+}
+@media(max-width: 991px){
+    .single-footer-widget{margin-bottom: 40px;}
+}
+
+.single-footer-widget p{
+    margin-bottom: 15px;
+}
+.single-footer-widget p:last-child{margin-bottom: 0;}
+.single-footer-widget p a{color:#ff573d;}
+.single-footer-widget p a{color:#ff573d;}
+.single-footer-widget .sm-head{color:#ff573d; margin-bottom: 0px; }
+.single-footer-widget .sm-head span{position: relative; margin-left: -40px;
+margin-right: 10px;
+display: inline-block;
+width: 28px;
+height: 28px;
+line-height: 28px;
+text-align: cneter;
+background: #ff573d;
+color: #ffffff;
+border-radius: 20px;
+    
+}
+.tp-widgets .list li{margin-bottom: 12px}
+.tp-widgets .list a{
+    color: #7b838a;
+    font-family: "Roboto",sans-serif;
+}
+.tp-widgets .list li a:hover{
+   color: #ff573d;
+}
+.tp-widgets .list li:last-child{margin-bottom: 0px;}
+.tp-widgets p{
+    color: #7b838a;
+}
+.footer_title{font-size:18px;line-height: 24px;
+font-weight: 500;
+font-family: "Lora",serif;
+text-transform: capitalize;
+color: #fff;
+margin-bottom: 28px;
+}
+@media(max-width: 991px){
+    .footer_title{margin-bottom: 20px;}
+}
+.footer_title.large_title{font-size: 36px;font-weight: 600;}
+@media (max-width: 1199px){.footer_title.large_title{font-size: 18px;}}
