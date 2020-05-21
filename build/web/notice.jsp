@@ -15,12 +15,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Dashboard</title>
+  <link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -36,8 +38,8 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+        <div class="sidebar-brand-icon">
+          <img src="img/logo2.jpg" class="img-fluid" style="border-radius: 50px; margin-top: 10px; margin-bottom: 10px;" width="65" height="65">
         </div>
         <div class="sidebar-brand-text mx-3">Staysafe</div>
       </a>
@@ -127,10 +129,7 @@
   
               <!-- Nav Item - Search Dropdown (Visible Only XS) -->
               <li class="nav-item dropdown no-arrow d-sm-none">
-                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <i class="fas fa-search fa-fw"></i>
-                </a>
+                
   
               <!-- Nav Item - User Information -->
               <li class="nav-item dropdown no-arrow">
@@ -163,7 +162,7 @@
               <!--row content-->
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="card shadow">
+                    <div class="card shadow animate__animated animate__fadeInUp" style="height: 780px;">
                         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                             <h6 class="m-0 font-weight-bold text-primary">Notice Board</h6>
                         </div>

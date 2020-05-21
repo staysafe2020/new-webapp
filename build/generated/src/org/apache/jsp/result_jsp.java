@@ -113,6 +113,9 @@ public final class result_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <h6 class=\"collapse-header\">Fees Section</h6>\n");
       out.write("                        <a class=\"collapse-item\" href=\"fees.jsp\">Fees</a>\n");
       out.write("                        <div class=\"collapse-divider\"></div>\n");
+      out.write("                        <h6 class=\"collapse-header\">Attendence</h6>\n");
+      out.write("                        <a class=\"collapse-item\" href=\"attendence.jsp\">Attendence</a>\n");
+      out.write("                        <div class=\"collapse-divider\"></div>\n");
       out.write("                        <h6 class=\"collapse-header\">Notice Board</h6>\n");
       out.write("                        <a class=\"collapse-item\" href=\"notice.jsp\">Notice</a>\n");
       out.write("                    </div>\n");
@@ -180,7 +183,7 @@ public final class result_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <!-- Dropdown - User Information -->\n");
       out.write("                            <div class=\"dropdown-menu dropdown-menu-right shadow animated--grow-in\"\n");
       out.write("                                aria-labelledby=\"userDropdown\">\n");
-      out.write("                                <a class=\"dropdown-item\" href=\"User.jsp\">\n");
+      out.write("                                <a class=\"dropdown-item\" href=\"user.jsp\">\n");
       out.write("                                    <i class=\"fas fa-user fa-sm fa-fw mr-2 text-gray-400\"></i>\n");
       out.write("                                    Profile\n");
       out.write("                                </a>\n");
@@ -315,7 +318,7 @@ public final class result_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"modal-body\">Select \"Logout\" below if you are ready to end your current session.</div>\n");
       out.write("                    <div class=\"modal-footer\">\n");
       out.write("                        <button class=\"btn btn-secondary\" type=\"button\" data-dismiss=\"modal\">Cancel</button>\n");
-      out.write("                        <a class=\"btn btn-primary\" href=\"login.html\">Logout</a>\n");
+      out.write("                        <a class=\"btn btn-primary\" href=\"login.jsp\">Logout</a>\n");
       out.write("                    </div>\n");
       out.write("                </div>\n");
       out.write("            </div>\n");

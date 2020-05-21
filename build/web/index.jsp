@@ -15,12 +15,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Dashboard</title>
+  <link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -37,8 +39,8 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+        <div class="sidebar-brand-icon justify-content-center">
+          <img src="img/logo2.jpg" class="img-fluid" style="border-radius: 50px; margin-top: 10px; margin-bottom: 10px;" width="65" height="65">
         </div>
         <div class="sidebar-brand-text mx-3">Staysafe</div>
       </a>
@@ -131,10 +133,7 @@
 
             <!-- Nav Item - Search Dropdown (Visible Only XS) -->
             <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
+              
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
@@ -171,15 +170,15 @@
 
             <!--total students Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
+              <div class="card border-left-primary shadow h-100 py-2 animate__animated animate__fadeInLeft" style="background-color: #FF0000;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Students</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">1000</div>
+                        <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Total Students</div>
+                      <div class="h5 mb-0 font-weight-bold" style="color: white;">1000</div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-user-friends"></i>
+                      <i class="fas fa-user-friends" style="color: white;"></i>
                     </div>
                   </div>
                 </div>
@@ -188,15 +187,15 @@
 
             <!-- total girls Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
+              <div class="card border-left-success shadow h-100 py-2 animate__animated animate__fadeInLeft" style="background-color: #FFCD00;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total girls</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">500</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Total girls</div>
+                      <div class="h5 mb-0 font-weight-bold" style="color: white;">500</div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-user-friends"></i>
+                      <i class="fas fa-user-friends" style="color: white;"></i>
                     </div>
                   </div>
                 </div>
@@ -205,15 +204,15 @@
 
             <!-- completed task Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
+              <div class="card border-left-success shadow h-100 py-2 animate__animated animate__fadeInLeft" style="background-color: #17a673;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total boys</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">500</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Total boys</div>
+                      <div class="h5 mb-0 font-weight-bold" style="color: white;">500</div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-user-friends"></i>
+                      <i class="fas fa-user-friends" style="color: white;"></i>
                     </div>
                   </div>
                 </div>
@@ -222,15 +221,15 @@
 
             <!-- Pending tasks Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
+              <div class="card border-left-success shadow h-100 py-2 animate__animated animate__fadeInLeft" style="background-color: #008BFF;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Teachers</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">20</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Teachers</div>
+                      <div class="h5 mb-0 font-weight-bold" style="color: white;">20</div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-user-friends"></i>
+                      <i class="fas fa-user-friends" style="color: white;"></i>
                     </div>
                   </div>
                 </div>
@@ -245,15 +244,15 @@
 
             <!-- Area Chart -->
             <div class="col-xl-8 col-lg-7">
-              <div class="card shadow mb-4">
+              <div class="card shadow mb-4 animate__animated animate__fadeInUp">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Growth</h6>
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
+                  <div class="chart-bar">
+                    <canvas id="myBarChart"></canvas>
                   </div>
                 </div>
               </div>
@@ -261,7 +260,7 @@
 
             <!-- Pie Chart -->
             <div class="col-xl-4 col-lg-5">
-              <div class="card shadow mb-4">
+              <div class="card shadow mb-4 animate__animated animate__fadeInUp animate__delay-500ms">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Assesment</h6>
@@ -294,7 +293,7 @@
             <div class="col-lg-6 mb-4">
 
               <!-- Project Card Example -->
-              <div class="card shadow mb-4">
+              <div class="card shadow mb-4 animate__animated animate__fadeInUp animate__delay-500ms">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">Upcomming events</h6>
                 </div>
@@ -337,7 +336,7 @@
             
             <div class="col-lg-6 mb-4">
             <!--Notice -->
-            <div class="card shadow mb-4">
+            <div class="card shadow mb-4 animate__animated animate__fadeInUp animate__delay-500ms">
               <div class="card-header py-3">
                 <h6 class="m-0 font-weight-bold text-primary">Important Notice</h6>
               </div>
@@ -415,8 +414,9 @@
     <script src="vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
+    <!--<script src="js/demo/chart-area-demo.js"></script>-->
     <script src="js/demo/chart-pie-demo.js"></script>
+    <script src="js/demo/chart-bar-demo.js"></script>
 
 </body>
 

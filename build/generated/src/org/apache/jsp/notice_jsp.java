@@ -60,6 +60,7 @@ public final class notice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("  <link\n");
       out.write("    href=\"https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i\"\n");
       out.write("    rel=\"stylesheet\">\n");
+      out.write("   <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css\"/>\n");
       out.write("\n");
       out.write("  <!-- Custom styles for this template-->\n");
       out.write("  <link href=\"css/sb-admin-2.min.css\" rel=\"stylesheet\">\n");
@@ -75,8 +76,8 @@ public final class notice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("      <!-- Sidebar - Brand -->\n");
       out.write("      <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"#\">\n");
-      out.write("        <div class=\"sidebar-brand-icon rotate-n-15\">\n");
-      out.write("          <i class=\"fas fa-laugh-wink\"></i>\n");
+      out.write("        <div class=\"sidebar-brand-icon\">\n");
+      out.write("          <img src=\"img/logo2.jpg\" class=\"img-fluid\" style=\"border-radius: 5px; margin-top: 10px; margin-bottom: 10px;\" width=\"65\" height=\"65\">\n");
       out.write("        </div>\n");
       out.write("        <div class=\"sidebar-brand-text mx-3\">Staysafe</div>\n");
       out.write("      </a>\n");
@@ -112,6 +113,9 @@ public final class notice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <a class=\"collapse-item\" href=\"result.jsp\">Result</a>\n");
       out.write("            <h6 class=\"collapse-header\">Fees Section</h6>\n");
       out.write("            <a class=\"collapse-item\" href=\"fees.jsp\">Fees</a>\n");
+      out.write("            <div class=\"collapse-divider\"></div>\n");
+      out.write("            <h6 class=\"collapse-header\">Attendence</h6>\n");
+      out.write("            <a class=\"collapse-item\" href=\"attendence.jsp\">Attendence</a>\n");
       out.write("            <div class=\"collapse-divider\"></div>\n");
       out.write("            <h6 class=\"collapse-header\">Notice Board</h6>\n");
       out.write("            <a class=\"collapse-item active\" href=\"#\">Notice</a>\n");
@@ -177,7 +181,7 @@ public final class notice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                </a>\n");
       out.write("                <!-- Dropdown - User Information -->\n");
       out.write("                <div class=\"dropdown-menu dropdown-menu-right shadow animated--grow-in\" aria-labelledby=\"userDropdown\">\n");
-      out.write("                  <a class=\"dropdown-item\" href=\"User.jsp\">\n");
+      out.write("                  <a class=\"dropdown-item\" href=\"user.jsp\">\n");
       out.write("                    <i class=\"fas fa-user fa-sm fa-fw mr-2 text-gray-400\"></i>\n");
       out.write("                    Profile\n");
       out.write("                  </a>\n");
@@ -199,7 +203,7 @@ public final class notice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("              <!--row content-->\n");
       out.write("            <div class=\"row\">\n");
       out.write("                <div class=\"col-lg-8\">\n");
-      out.write("                    <div class=\"card shadow\">\n");
+      out.write("                    <div class=\"card shadow animate__animated animate__fadeInUp\" style=\"height: 780px;\">\n");
       out.write("                        <div class=\"card-header py-3 d-flex flex-row align-items-center justify-content-between\">\n");
       out.write("                            <h6 class=\"m-0 font-weight-bold text-primary\">Notice Board</h6>\n");
       out.write("                        </div>\n");
@@ -260,7 +264,7 @@ public final class notice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <div class=\"modal-body\">Select \"Logout\" below if you are ready to end your current session.</div>\n");
       out.write("            <div class=\"modal-footer\">\n");
       out.write("              <button class=\"btn btn-secondary\" type=\"button\" data-dismiss=\"modal\">Cancel</button>\n");
-      out.write("              <a class=\"btn btn-primary\" href=\"login.html\">Logout</a>\n");
+      out.write("              <a class=\"btn btn-primary\" href=\"login.jsp\">Logout</a>\n");
       out.write("            </div>\n");
       out.write("          </div>\n");
       out.write("        </div>\n");

@@ -15,12 +15,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Dashboard</title>
+    <link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -28,7 +30,7 @@
 </head>
 
 <body id="page-top">
-    <!-- Page Wrapper -->
+    <!--Page Wrapper-->
     <div id="wrapper">
 
         <!-- Sidebar -->
@@ -36,8 +38,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <img src="img/logo2.jpg" class="img-fluid" style="border-radius: 50px; margin-top: 10px; margin-bottom: 10px;" width="65" height="65">
                 </div>
                 <div class="sidebar-brand-text mx-3">Staysafe</div>
             </a>
@@ -129,10 +131,7 @@
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
-                            </a>
+                       
 
                             <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
@@ -165,24 +164,25 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="card shadow">
+                            <div class="card shadow animate__animated animate__fadeInUp">
                                 <div class="card-header">
                                     <h4 class="card-title">Edit Profile</h4>
                                 </div>
                                 <div class="card-body">
                                     <form>
+                                        <img class="img-profile rounded-circle" src="img/LOGO.png">
                                         <p>Student Name</p>
                                         <div class="row">
                                             <div class="col-md-4 pr-1">
                                                 <div class="form-group">
                                                     <label for="firstname">First Name</label>
-                                                    <input type="text" class="form-control" placeholder="Firstname">
+                                                    <input type="text" class="form-control"  placeholder="Firstname">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 px-1">
                                                 <div class="form-group">
                                                     <label for="middlename">Middle Name</label>
-                                                    <input type="text" class="form-control" placeholder="Middle Name">
+                                                    <input type="text" class="form-control"  placeholder="Middle Name">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 pl-1">
@@ -197,19 +197,19 @@
                                             <div class="col-md-4 pr-1">
                                                 <div class="form-group">
                                                     <label for="firstname">First Name</label>
-                                                    <input type="text" class="form-control" placeholder="Firstname">
+                                                    <input type="text" class="form-control"  placeholder="Firstname">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 px-1">
                                                 <div class="form-group">
                                                     <label for="middlename">Middle Name</label>
-                                                    <input type="text" class="form-control" placeholder="Middle Name">
+                                                    <input type="text" class="form-control"  placeholder="Middle Name">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 pl-1">
                                                 <div class="form-group">
                                                     <label for="Lastname">Last Name</label>
-                                                    <input type="text" class="form-control" placeholder="Lastname">
+                                                    <input type="text" class="form-control"  placeholder="Lastname">
                                                 </div>
                                             </div>
                                         </div>
@@ -218,19 +218,19 @@
                                             <div class="col-md-4 pr-1">
                                                 <div class="form-group">
                                                     <label for="firstname">First Name</label>
-                                                    <input type="text" class="form-control" placeholder="Firstname">
+                                                    <input type="text" class="form-control"  placeholder="Firstname">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 px-1">
                                                 <div class="form-group">
                                                     <label for="middlename">Middle Name</label>
-                                                    <input type="text" class="form-control" placeholder="Middle Name">
+                                                    <input type="text" class="form-control"  placeholder="Middle Name">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 pl-1">
                                                 <div class="form-group">
                                                     <label for="Lastname">Last Name</label>
-                                                    <input type="text" class="form-control" placeholder="Lastname">
+                                                    <input type="text" class="form-control"  placeholder="Lastname">
                                                 </div>
                                             </div>
                                         </div>
@@ -244,13 +244,13 @@
                                             <div class="col-md-4 px-1">
                                                 <div class="form-group">
                                                     <label for="Mobileno">Mob. Number</label>
-                                                    <input type="text" class="form-control" placeholder="Mobile Number" maxlength="10">
+                                                    <input type="text" class="form-control"  placeholder="Mobile Number" maxlength="10">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 pl-1">
                                                 <div class="form-group">
                                                     <label for="telno">Tel. Number</label>
-                                                    <input type="text" class="form-control" placeholder="Telephone Number" maxlength="10">
+                                                    <input type="text" class="form-control"  placeholder="Telephone Number" maxlength="10">
                                                 </div>
                                             </div>
                                         </div>
@@ -258,7 +258,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Email</label>
-                                                    <input type="email" class="form-control" placeholder="Email">
+                                                    <input type="email" class="form-control"  placeholder="Email">
                                                 </div>
                                             </div>   
                                         </div>
@@ -274,13 +274,13 @@
                                             <div class="col-md-6 pr-1">
                                                 <div class="form-group">
                                                     <label for="RollNo">Roll Number</label>
-                                                    <input type="text" class="form-control" placeholder="Roll Number">
+                                                    <input type="text" class="form-control"  placeholder="Roll Number">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 pl-1">
                                                 <div class="form-group">
                                                     <label for="class">Class</label>
-                                                    <input type="text" class="form-control" placeholder="Class">
+                                                    <input type="text" class="form-control"  placeholder="Class">
                                                 </div>
                                             </div>
                                         </div>                                        
@@ -288,31 +288,23 @@
                                             <div class="col-md-4 pr-1">
                                                 <div class="form-group">
                                                     <label>City</label>
-                                                    <input type="text" class="form-control" placeholder="City">
+                                                    <input type="text" class="form-control"  placeholder="City">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 px-1">
                                                 <div class="form-group">
                                                     <label>Country</label>
-                                                    <input type="text" class="form-control" placeholder="Country">
+                                                    <input type="text" class="form-control"  placeholder="Country">
                                                 </div>
                                             </div>
                                             <div class="col-md-4 pl-1">
                                                 <div class="form-group">
                                                     <label>Postal Code</label>
-                                                    <input type="number" class="form-control" placeholder="ZIP Code">
+                                                    <input type="number" class="form-control"   placeholder="ZIP Code">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label>About Me</label>
-                                                    <textarea rows="4" cols="80" class="form-control"
-                                                        placeholder="Here can be your description"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
                                         <div class="text-right">
                                         <button type="submit" class="btn btn-info btn-fill pull-right">Update
                                             Profile</button>
